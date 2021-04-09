@@ -1,7 +1,141 @@
-$w:1190px;
-$border:1px solid red;
-.Top{
-    width: $w;
-    margin: 0 auto;
-    border: $border;
+$w: 1190px;
+$mw: 1519px;
+$border: 1px solid #999;
+$red: #dd373b;
+$font: 12px;
+.topwrap {
+    background-color: $red;
+    height: 100px;
+    width: $mw;
+    .top {
+        width: $w;
+        margin: 0 auto;
+    }
+}
+
+.dropdown-menu {
+    top: auto;
+    left: auto;
+    float: none;
+    min-width: 20px;
+    padding: 0;
+    margin: 0;
+    border-radius: 0%;
+
+    box-shadow: none;
+    border-top: none;
+    li {
+        padding: 0;
+        min-width: 20px;
+    }
+    li a {
+        padding: 3px 5px;
+        font-size: $font;
+    }
+    li a:hover {
+        text-decoration: underline;
+        background-color: white;
+        color: $red;
+    }
+}
+.nav {
+    background-color: #f2f2f2;
+    height: 26px;
+    width: $mw;
+    i .icon {
+        font-size: 12px;
+    }
+    .sn-bd {
+        width: $w;
+        margin: 0 auto;
+    }
+    .sn-container {
+        height: 26px;
+        line-height: 26px;
+    }
+    .sn-back-home {
+        float: left;
+    }
+    .sn-login-info {
+        color: #999;
+        margin-left: 20px;
+        float: left;
+        width: 218px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .sn-quick-menu {
+        width: 507px;
+        float: right;
+        display: flex;
+        justify-content: space-between;
+    }
+    a:hover {
+        color: $red;
+    }
+    .seller {
+        width: 130px;
+        padding: 0 3px;
+        h6 {
+            font-weight: 600;
+            margin-left: 5px;
+            margin-top: 3px;
+        }
+    }
+    .shangjia1 {
+        border-bottom: 1px dotted #827777;
+        a {
+            display: inline-block;
+            width: 32px;
+            margin-right: 20px;
+        }
+    }
+    .shangjia2 {
+        border-bottom: 1px dotted #827777;
+        margin-bottom: 5px;
+    }
+    .sn-menu {
+        .menu-hd {
+            height: 26px;
+        }
+        .dropdown {
+            .daohang {
+                text-decoration: none;
+            }
+            .daohang:hover {
+                color: #999;
+            }
+            .daohangxiala {
+                left: -1114px;
+                width: $w;
+                .site-hot {
+                    padding: 8px 25px;
+                    float: left;
+                    width: 475px;
+                    .site-list {
+                        width: 455px;
+                        height: 95px;
+                        display: flex;
+                        flex-wrap: wrap;
+                        border-right: 1px dashed #999;
+                        li {
+                            width: 85px;
+                        }
+                    }
+                }
+                .site-hot-help{
+                    width: 230px;
+                    padding: 5px 15px;
+                    float: right;
+                    .site-list-help{
+                        display: flex;
+                        flex-wrap: wrap;
+                        li{
+                            width: 95px;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

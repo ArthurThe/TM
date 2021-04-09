@@ -1,16 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TM</title>
+
+
+    <script src="./font/nav/iconfont.js"></script>
+    <link href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://cdn.bootcss.com/jquery/2.1.4/jquery.js"></script>
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.js"></script>
+    <script
+        src="https://cdn.bootcdn.net/ajax/libs/bootstrap-hover-dropdown/2.0.1/twitter-bootstrap-hover-dropdown.min.js"></script>
+    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/index.css">
-</head>
+
 <body>
-    <div class="Top">
-        <img src="./img/top.jpg" alt="">
-        <h1>222</h1>
-    </div>
-</body>
+
+
+    <style>
+        .icon {
+            width: 1em;
+            height: 1em;
+            vertical-align: -0.15em;
+            fill: currentColor;
+            overflow: hidden;
+        }
+    </style>
+
+    </head>
+
+    <body>
+        <div class="topwrap">
+            <div class="top">
+                <a href=""><img src="./img/top.jpg" alt="" height="100" width="1190"></a>
+            </div>
+        </div>
+        <div class="nav">
+            <div class="sn-bd">
+                <div class="sn-container">
+                    <p class="sn-back-home">
+                        <i>
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-index" style="line-height: 26px;"></use>
+                            </svg>
+                        </i>
+                        <a href="">天猫首页</a>
+                    </p>
+                    <p class=sn-login-info>
+                        <i>喵，欢迎来天猫</i>
+                        <a href="" class="sn-login">请登录</a>
+                        <a href="" class="sn-register">免费注册</a>
+                    </p>
+                    <ul class="sn-quick-menu">
+                        <li class="sn-mytaobao">
+                            <div class="dropdown">
+                                <a href="" class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown"
+                                    data-hover="dropdown">
+                                    我的淘宝
+                                    <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                                    <li role="presentation">
+                                        <a role="menuitem" tabindex="-1" href="#">已买到的宝贝</a>
+                                    </li>
+                                    <li role="presentation">
+                                        <a role="menuitem" tabindex="-1" href="#">已卖出的宝贝</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+
+
+
+                        </li>
+                        <li class="cn-cart">
+                            <i>
+                                <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-gouwuche2" style="line-height: 26px;"></use>
+                                </svg>
+                            </i>
+                            <a href="">购物车</a>
+                        </li>
+                        <li class="sn-favorite">
+                            <div class="dropdown">
+                                <a href="" class="dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown"
+                                    data-hover="dropdown">
+                                    收藏夹
+                                    <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu2">
+                                    <li role="presentation">
+                                        <a role="menuitem" tabindex="-1" href="#">收藏的宝贝</a>
+                                    </li>
+                                    <li role="presentation">
+                                        <a role="menuitem" tabindex="-1" href="#">收藏的店铺</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="separator"></li>
+                        <li class="sn-mobile">
+                            <i>
+                                <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-shouji" style="line-height: 26px;"></use>
+                                </svg>
+                            </i>
+                            <a href="">手机版</a>
+                        </li>
+                        <li class="sn-home">
+                            <a href="">淘宝网</a>
+                        </li>
+                        <li class="sn-seller">
+                            <div class="dropdown">
+                                <a href="" class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown"
+                                    data-hover="dropdown">
+                                    商家支持
+                                    <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu seller" role="menu" aria-labelledby="dropdownMenu1">
+                                    <li role="presentation">
+                                        <h6>商家：</h6>
+                                    </li>
+                                    <li role="presentation" class="shangjia1">
+                                        <a role="menuitem" tabindex="-1" href="#">商家中心</a>
+                                        <a role="menuitem" tabindex="-1" href="#">商家支持</a>
+                                        <a role="menuitem" tabindex="-1" href="#">商家支持</a>
+                                        <a role="menuitem" tabindex="-1" href="#">商家支持</a>
+                                        <a role="menuitem" tabindex="-1" href="#">商家支持</a>
+                                        <a role="menuitem" tabindex="-1" href="#">商家支持</a>
+                                        <a role="menuitem" tabindex="-1" href="#">商家支持</a>
+                                        <a role="menuitem" tabindex="-1" href="#">商家支持</a>
+
+                                    </li>
+                                    <li role="presentation">
+                                        <h6>帮助：</h6>
+                                    </li>
+                                    <li role="presentation" class="shangjia2">
+                                        <a role="menuitem" tabindex="-1" href="#">商家服务大厅</a>
+                                        <a role="menuitem" tabindex="-1" href="#">问商友</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="sn-sitemap">
+                            <div class="sn-menu">
+                                <div class="dropdown">
+                                    <i>
+                                        <svg class="icon" aria-hidden="true">
+                                            <use xlink:href="#icon-wangzhandaohang"></use>
+                                        </svg>
+                                    </i>
+                                    <a href="" class="dropdown-toggle daohang" id="dropdownMenu2" data-toggle="dropdown"
+                                        data-hover="dropdown">
+                                        网站导航
+                                        <span class="caret"></span>
+                                    </a>
+                                    <ul class="dropdown-menu daohangxiala" role="menu" aria-labelledby="dropdownMenu2">
+                                        <li role="presentation">
+                                            <div>
+                                                <div class="site-hot">
+                                                    <h3
+                                                        style="color: #f56a00;font-size: 16px;margin-top: 15px;margin-bottom: 9px;">
+                                                        热点推荐
+                                                        <span>Hot</span>
+                                                    </h3>
+                                                    <ul class="site-list">
+                                                        <li><a href="">天猫超市</a></li>
+                                                        <li><a href="">天猫超市</a></li>
+                                                        <li><a href="">天猫超市</a></li>
+                                                        <li><a href="">天猫超市</a></li>
+                                                        <li><a href="">天猫超市</a></li>
+                                                        <li><a href="">天猫超市</a></li>
+                                                        <li><a href="">天猫超市</a></li>
+                                                        <li><a href="">天猫超市</a></li>
+                                                        <li><a href="">天猫超市</a></li>
+                                                        <li><a href="">天猫超市</a></li>
+                                                        <li><a href="">天猫超市</a></li>
+                                                        <li><a href="">天猫超市</a></li>
+                                                        <li><a href="">天猫超市</a></li>
+                                                        <li><a href="">天猫超市</a></li>
+                                                        <li><a href="">天猫超市</a></li>
+                                                    </ul>
+                                                </div>
+                                                
+                                                    <div class="site-hot">
+                                                        <h3 style="color: #2263d4;font-size: 16px;margin-top: 15px;margin-bottom: 9px;">
+                                                            行业市场
+                                                            <span>Market</span>
+                                                        </h3>
+                                                        <ul class="site-list">
+                                                            <li><a href="">天猫超市</a></li>
+                                                            <li><a href="">天猫超市</a></li>
+                                                            <li><a href="">天猫超市</a></li>
+                                                            <li><a href="">天猫超市</a></li>
+                                                            <li><a href="">天猫超市</a></li>
+                                                            <li><a href="">天猫超市</a></li>
+                                                            <li><a href="">天猫超市</a></li>
+                                                            <li><a href="">天猫超市</a></li>
+                                                            <li><a href="">天猫超市</a></li>
+                                                            <li><a href="">天猫超市</a></li>
+                                                            <li><a href="">天猫超市</a></li>
+                                                            <li><a href="">天猫超市</a></li>
+                                                            <li><a href="">天猫超市</a></li>
+                                                            <li><a href="">天猫超市</a></li>
+                                                            <li><a href="">天猫超市</a></li>
+                                                        </ul>
+                                                    
+                                                </div>
+                                                
+                                                    <div class="site-hot-help">
+                                                        <h3 style="color: #666;font-size: 16px;margin-top: 15px;margin-bottom: 9px;">
+                                                            服务指南
+                                                            <span>Help</span>
+                                                        </h3>
+                                                        <ul class="site-list-help">
+                                                            <li><a href="">帮助中心</a></li>
+                                                            <li><a href="">天猫超市</a></li>
+                                                            <li><a href="">天猫超市</a></li>
+                                                            <li><a href="">天猫超市</a></li>
+
+                                                        </ul>
+                                                    </div>
+                                                
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+
+
+
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+
 </html>

@@ -1,0 +1,37 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1526644",
+      "name": "网站导航",
+      "font_class": "wangzhandaohang",
+      "unicode": "e501",
+      "unicode_decimal": 58625
+    },
+    {
+      "icon_id": "5295286",
+      "name": "天猫购物车 ",
+      "font_class": "gouwuche2",
+      "unicode": "e512",
+      "unicode_decimal": 58642
+    },
+    {
+      "icon_id": "11067520",
+      "name": "手机",
+      "font_class": "shouji",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "18514443",
+      "name": "首页-选中",
+      "font_class": "index",
+      "unicode": "e505",
+      "unicode_decimal": 58629
+    }
+  ]
+}

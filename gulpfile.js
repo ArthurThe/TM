@@ -24,7 +24,10 @@ gulp.task("img", done => {
     gulp.src("img/**").pipe(gulp.dest("dist/img")).pipe(connect.reload());
     done();
 });
-
+gulp.task("font",done=>{
+    gulp.src("font/**").pipe(gulp.dest("dist/font")).pipe(connect.reload());
+    done();
+})
 gulp.task("watch", done => {
     gulp.watch("*.html", gulp.series("html"));
     gulp.watch("sass/*.scss", gulp.series("sass"));
@@ -40,5 +43,5 @@ gulp.task("server", done => {
     done();
 });
 
-gulp.task("build", gulp.parallel("html", "sass", "js", "img"));
+gulp.task("build", gulp.parallel("html", "sass", "js", "img","font"));
 gulp.task("default", gulp.series("build", "server", "watch"));
