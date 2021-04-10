@@ -8,12 +8,16 @@
     <title>TM</title>
 
 
-    <script src="./font/nav/iconfont.js"></script>
+    <script src="./font/iconfont.js"></script>
     <link href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
     <script src="http://cdn.bootcss.com/jquery/2.1.4/jquery.js"></script>
     <script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.js"></script>
     <script
         src="https://cdn.bootcdn.net/ajax/libs/bootstrap-hover-dropdown/2.0.1/twitter-bootstrap-hover-dropdown.min.js"></script>
+    <script type="text/javascript" src="js/citydata.min.js"></script>
+    <script type="text/javascript" src="js/citySelect-1.0.3.js"></script>
+    <script src="./js/index.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/city-select.css">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/index.css">
 
@@ -186,59 +190,412 @@
                                                         <li><a href="">天猫超市</a></li>
                                                     </ul>
                                                 </div>
-                                                
-                                                    <div class="site-hot">
-                                                        <h3 style="color: #2263d4;font-size: 16px;margin-top: 15px;margin-bottom: 9px;">
-                                                            行业市场
-                                                            <span>Market</span>
-                                                        </h3>
-                                                        <ul class="site-list">
-                                                            <li><a href="">天猫超市</a></li>
-                                                            <li><a href="">天猫超市</a></li>
-                                                            <li><a href="">天猫超市</a></li>
-                                                            <li><a href="">天猫超市</a></li>
-                                                            <li><a href="">天猫超市</a></li>
-                                                            <li><a href="">天猫超市</a></li>
-                                                            <li><a href="">天猫超市</a></li>
-                                                            <li><a href="">天猫超市</a></li>
-                                                            <li><a href="">天猫超市</a></li>
-                                                            <li><a href="">天猫超市</a></li>
-                                                            <li><a href="">天猫超市</a></li>
-                                                            <li><a href="">天猫超市</a></li>
-                                                            <li><a href="">天猫超市</a></li>
-                                                            <li><a href="">天猫超市</a></li>
-                                                            <li><a href="">天猫超市</a></li>
-                                                        </ul>
-                                                    
-                                                </div>
-                                                
-                                                    <div class="site-hot-help">
-                                                        <h3 style="color: #666;font-size: 16px;margin-top: 15px;margin-bottom: 9px;">
-                                                            服务指南
-                                                            <span>Help</span>
-                                                        </h3>
-                                                        <ul class="site-list-help">
-                                                            <li><a href="">帮助中心</a></li>
-                                                            <li><a href="">天猫超市</a></li>
-                                                            <li><a href="">天猫超市</a></li>
-                                                            <li><a href="">天猫超市</a></li>
 
-                                                        </ul>
-                                                    </div>
-                                                
+                                                <div class="site-hot">
+                                                    <h3
+                                                        style="color: #2263d4;font-size: 16px;margin-top: 15px;margin-bottom: 9px;">
+                                                        行业市场
+                                                        <span>Market</span>
+                                                    </h3>
+                                                    <ul class="site-list">
+                                                        <li><a href="">天猫超市</a></li>
+                                                        <li><a href="">天猫超市</a></li>
+                                                        <li><a href="">天猫超市</a></li>
+                                                        <li><a href="">天猫超市</a></li>
+                                                        <li><a href="">天猫超市</a></li>
+                                                        <li><a href="">天猫超市</a></li>
+                                                        <li><a href="">天猫超市</a></li>
+                                                        <li><a href="">天猫超市</a></li>
+                                                        <li><a href="">天猫超市</a></li>
+                                                        <li><a href="">天猫超市</a></li>
+                                                        <li><a href="">天猫超市</a></li>
+                                                        <li><a href="">天猫超市</a></li>
+                                                        <li><a href="">天猫超市</a></li>
+                                                        <li><a href="">天猫超市</a></li>
+                                                        <li><a href="">天猫超市</a></li>
+                                                    </ul>
+
+                                                </div>
+
+                                                <div class="site-hot-help">
+                                                    <h3
+                                                        style="color: #666;font-size: 16px;margin-top: 15px;margin-bottom: 9px;">
+                                                        服务指南
+                                                        <span>Help</span>
+                                                    </h3>
+                                                    <ul class="site-list-help">
+                                                        <li><a href="">帮助中心</a></li>
+                                                        <li><a href="">天猫超市</a></li>
+                                                        <li><a href="">天猫超市</a></li>
+                                                        <li><a href="">天猫超市</a></li>
+
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </li>
                                     </ul>
                                 </div>
-
-
-
                             </div>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
+        <div class="headerwrap ">
+            <div class="header clean">
+                <h3 id="mallogo">
+                    <a href="https://chaoshi.tmall.com/?notjump=true&_ig=logo" title="天猫超市-chaoshi.tmall.com"><img
+                            src="./img/logo.png" alt="" width="130"><span>生活小事 随时天猫超市</span>
+                    </a>
+                </h3>
+
+                <div class="header-extra">
+                    <div class="area">
+                        <div class="city-select" id="single-select-1">
+
+                            <ul class="city-list hide">
+                                <li class="caller active"><span class="name">北京市</span><span
+                                        class="spell">beijingshi</span>
+                                </li>
+                                <li class="caller"><span class="name">北京市</span><span class="spell">beijingshi</span>
+                                </li>
+                                <li class="caller"><span class="name">北京市</span><span class="spell">beijingshi</span>
+                                </li>
+                                <li class="caller"><span class="name">北京市</span><span class="spell">beijingshi</span>
+                                </li>
+                                <li class="caller"><span class="name">北京市</span><span class="spell">beijingshi</span>
+                                </li>
+                                <li class="caller"><span class="name">北京市</span><span class="spell">beijingshi</span>
+                                </li>
+                                <li class="caller"><span class="name">北京市</span><span class="spell">beijingshi</span>
+                                </li>
+                                <li class="caller"><span class="name">北京市</span><span class="spell">beijingshi</span>
+                                </li>
+                            </ul>
+                            <div class="city-pavilion hide">
+                                <div class="city-tabs">
+                                    <a href="javascript:;" class="active">热门城市</a>
+                                    <a href="javascript:;">AB</a>
+                                    <a href="javascript:;">CD</a>
+                                    <a href="javascript:;">EFG</a>
+                                    <a href="javascript:;">H</a>
+                                    <a href="javascript:;">J</a>
+                                    <a href="javascript:;">KL</a>
+                                    <a href="javascript:;" class="forbid">MNP</a>
+                                    <a href="javascript:;">QR</a>
+                                    <a href="javascript:;">S</a>
+                                    <a href="javascript:;">T</a>
+                                    <a href="javascript:;">W</a>
+                                    <a href="javascript:;">X</a>
+                                    <a href="javascript:;">Y</a>
+                                    <a href="javascript:;">Z</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="search">
+                        <form class="clean">
+                            <input type="text" name="ssk" id="ssk2" onchange="change()" placeholder="搜索天猫超市商品" />
+                            <button type="submit">搜索</button>
+                        </form>
+                    </div>
+                    <div class="banner">
+                        <ul class="market-feature clean">
+                            <li>
+                                <a href=""><span>1</span>一站式购齐</a>
+                            </li>
+                            <li>
+                                <a href=""><span>88</span>满88包邮</a>
+
+                            </li>
+                            <li><a href=""><img src="./img/36.png" alt=""></a></li>
+                            <li><a href=""><img src="./img/bian.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contentwrap">
+            <div class="content">
+                <div class="tm-nav clean">
+                    <div class="nav1">
+                        <h3>所有产品分类</h3>
+                    </div>
+                    <ul class="nav2">
+                        <li>
+                            <h3><a href="">首页</a> </h3>
+                        </li>
+                        <i></i>
+                        <li>
+                            <h3><a href="">企业采购</a> </h3>
+                        </li>
+                    </ul>
+                    
+
+                        <div class="cart" id="cart">
+
+                            <h3>
+                                <i>
+                                    <svg class="icon" aria-hidden="true">
+                                        <use xlink:href="#icon-gouwuche1-copy"></use>
+                                    </svg>
+                                </i>
+                                <a href="">￥0.00元</a><a href="">0kg</a>
+                                <span class="caret"
+                                    style="float: right;margin-top: 18px;margin-right: 5px; color: white;"></span>
+                            </h3>
+                            <div class="cartlist" id="cartlist">
+                                <ul>
+                                    <li>商品</li>
+                                    <li>数量</li>
+                                    <li>价格</li>
+                                    <li>删除</li>
+                                </ul>
+                                <div class="cartmain">
+                                    <p class="cartlogin">
+                                        如果您还未登录，可能导致购物车为空，请 <span>马上登录</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <div class="fs clean">
+                    <div class="tm-side">
+                        <ul>
+                            <li>
+                                <h3 class="clean">
+                                    <i><svg class="icon" aria-hidden="true" >
+                                            <use xlink:href="#icon-jipiao"></use>
+                                        </svg></i>
+                                    <a href="">进口食品</a>
+                                    <em><svg class="icon" aria-hidden="true">
+                                        <use xlink:href="#icon-dayu"></use>
+                                    </svg></em>
+                                </h3>
+                                <p>
+                                    <a href="">牛奶</a>
+                                    <a href="">零食</a>
+                                    <a href="">饼干</a>
+                                    <a href="">方便面</a>
+                                    <a href="">粮油</a>
+                                </p>
+                            </li>
+                            <li>
+                                <h3 class="clean">
+                                    <i><svg class="icon" aria-hidden="true">
+                                            <use xlink:href="#icon-jipiao"></use>
+                                        </svg></i>
+                                    <a href="">进口食品</a>
+                                    <em><svg class="icon" aria-hidden="true">
+                                        <use xlink:href="#icon-dayu"></use>
+                                    </svg></em>
+                                </h3>
+                                <p>
+                                    <a href="">牛奶</a>
+                                    <a href="">零食</a>
+                                    <a href="">饼干</a>
+                                    <a href="">方便面</a>
+                                    <a href="">粮油</a>
+                                </p>
+                            </li>
+                            <li>
+                                <h3 class="clean">
+                                    <i><svg class="icon" aria-hidden="true">
+                                            <use xlink:href="#icon-jipiao"></use>
+                                        </svg></i>
+                                    <a href="">进口食品</a>
+                                    <em><svg class="icon" aria-hidden="true">
+                                        <use xlink:href="#icon-dayu"></use>
+                                    </svg></em>
+                                </h3>
+                                <p>
+                                    <a href="">牛奶</a>
+                                    <a href="">零食</a>
+                                    <a href="">饼干</a>
+                                    <a href="">方便面</a>
+                                    <a href="">粮油</a>
+                                </p>
+                            </li>
+                            <li>
+                                <h3 class="clean">
+                                    <i><svg class="icon" aria-hidden="true">
+                                            <use xlink:href="#icon-jipiao"></use>
+                                        </svg></i>
+                                    <a href="">进口食品</a>
+                                    <em><svg class="icon" aria-hidden="true">
+                                        <use xlink:href="#icon-dayu"></use>
+                                    </svg></em>
+                                </h3>
+                                <p>
+                                    <a href="">牛奶</a>
+                                    <a href="">零食</a>
+                                    <a href="">饼干</a>
+                                    <a href="">方便面</a>
+                                    <a href="">粮油</a>
+                                </p>
+                            </li>
+                            <li>
+                                <h3 class="clean">
+                                    <i><svg class="icon" aria-hidden="true">
+                                            <use xlink:href="#icon-jipiao"></use>
+                                        </svg></i>
+                                    <a href="">进口食品</a>
+                                    <em><svg class="icon" aria-hidden="true">
+                                        <use xlink:href="#icon-dayu"></use>
+                                    </svg></em>
+                                </h3>
+                                <p>
+                                    <a href="">牛奶</a>
+                                    <a href="">零食</a>
+                                    <a href="">饼干</a>
+                                    <a href="">方便面</a>
+                                    <a href="">粮油</a>
+                                </p>
+                            </li>
+                            <li>
+                                <h3 class="clean">
+                                    <i><svg class="icon" aria-hidden="true">
+                                            <use xlink:href="#icon-jipiao"></use>
+                                        </svg></i>
+                                    <a href="">进口食品</a>
+                                    <em><svg class="icon" aria-hidden="true">
+                                        <use xlink:href="#icon-dayu"></use>
+                                    </svg></em>
+                                </h3>
+                                <p>
+                                    <a href="">牛奶</a>
+                                    <a href="">零食</a>
+                                    <a href="">饼干</a>
+                                    <a href="">方便面</a>
+                                    <a href="">粮油</a>
+                                </p>
+                            </li>
+                            <li>
+                                <h3 class="clean">
+                                    <i><svg class="icon" aria-hidden="true">
+                                            <use xlink:href="#icon-jipiao"></use>
+                                        </svg></i>
+                                    <a href="">进口食品</a>
+                                    <em><svg class="icon" aria-hidden="true">
+                                        <use xlink:href="#icon-dayu"></use>
+                                    </svg></em>
+                                </h3>
+                                <p>
+                                    <a href="">牛奶</a>
+                                    <a href="">零食</a>
+                                    <a href="">饼干</a>
+                                    <a href="">方便面</a>
+                                    <a href="">粮油</a>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="subview">
+                        <ul>
+        
+                            <li>
+                                <div class="menu">
+                                    <h3><a href="">进口牛奶</a></h3>
+                                <p>
+                                    <a href="">进口纯牛奶</a>
+                                    <a href="">进口酸奶</a>
+                                    <a href="">进口成人奶粉</a>
+                                    <a href="">进口含乳奶粉</a>
+                                    <a href="">进口有机牛奶</a>
+                                    <a href="">进口酸奶粉</a>
+                                </p>
+                                </div>
+                                
+                                <div class="menu">
+                                    <h3><a href="">进口牛奶</a></h3>
+                                <p>
+                                    <a href="">进口纯牛奶</a>
+                                    <a href="">进口酸奶</a>
+                                    <a href="">进口成人奶粉</a>
+                                    <a href="">进口含乳奶粉</a>
+                                    <a href="">进口有机牛奶</a>
+                                    <a href="">进口酸奶粉</a>
+                                </p>
+                                </div>
+                                <div class="menu">
+                                    <h3><a href="">进口牛奶</a></h3>
+                                <p>
+                                    <a href="">进口纯牛奶</a>
+                                    <a href="">进口酸奶</a>
+                                    <a href="">进口成人奶粉</a>
+                                    <a href="">进口含乳奶粉</a>
+                                    <a href="">进口有机牛奶</a>
+                                    <a href="">进口酸奶粉</a>
+                                </p>
+                                </div>
+                            </li>
+                           
+                            
+                        </ul>
+                        
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+        <script type="text/javascript">
+            $(function () {
+
+                // 单选
+                var singleSelect1 = $('#single-select-1').citySelect({
+                    dataJson: cityData,
+                    multiSelect: false,
+                    whole: true,
+                    shorthand: true,
+                    search: false,
+                    onInit: function () {
+                        console.log(this)
+                    },
+                    onTabsAfter: function (target) {
+                        console.log(target)
+                    },
+                    onCallerAfter: function (target, values) {
+                        console.log(JSON.stringify(values))
+                    }
+                });
+
+                // 单选设置城市
+                singleSelect1.setCityVal('郑州市');
+
+                // 单选
+                var singleSelect2 = $('#single-select-2').citySelect({
+                    dataJson: cityData
+                });
+
+                // 单选设置城市
+
+                // 禁止点击显示的接口
+                singleSelect2.status('readonly');
+
+                //单选
+                var singleSelect3 = $('#single-select-3').citySelect({
+                    dataJson: cityData
+                });
+
+                // 单选设置城市
+
+                // 禁止点击显示的接口
+                singleSelect3.status('disabled');
+
+                // 多选
+
+
+            });
+        </script>
     </body>
 
 </html>
