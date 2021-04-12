@@ -13,6 +13,13 @@
       "unicode_decimal": 58625
     },
     {
+      "icon_id": "1577214",
+      "name": "食品保健",
+      "font_class": "shipinbaojian",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
       "icon_id": "2528978",
       "name": "充",
       "font_class": "chong",
@@ -69,6 +76,13 @@
       "unicode_decimal": 58919
     },
     {
+      "icon_id": "11631940",
+      "name": "百货购物",
+      "font_class": "baihuogouwu",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
       "icon_id": "11749588",
       "name": "洗护",
       "font_class": "xihu",
@@ -83,6 +97,13 @@
       "unicode_decimal": 58973
     },
     {
+      "icon_id": "12619975",
+      "name": "飞机",
+      "font_class": "feiji2",
+      "unicode": "e502",
+      "unicode_decimal": 58626
+    },
+    {
       "icon_id": "13352019",
       "name": "购物车",
       "font_class": "gouwuche1",
@@ -93,8 +114,8 @@
       "icon_id": "16544421",
       "name": "粮油副食",
       "font_class": "iconfontliangyoufushi",
-      "unicode": "e502",
-      "unicode_decimal": 58626
+      "unicode": "e503",
+      "unicode_decimal": 58627
     },
     {
       "icon_id": "16745702",
@@ -111,11 +132,25 @@
       "unicode_decimal": 58629
     },
     {
+      "icon_id": "18555877",
+      "name": "价格",
+      "font_class": "jiage",
+      "unicode": "e508",
+      "unicode_decimal": 58632
+    },
+    {
       "icon_id": "19570382",
       "name": "飞机",
       "font_class": "jipiao",
       "unicode": "e562",
       "unicode_decimal": 58722
+    },
+    {
+      "icon_id": "20346379",
+      "name": "袋",
+      "font_class": "dai",
+      "unicode": "e59c",
+      "unicode_decimal": 58780
     }
   ]
 }

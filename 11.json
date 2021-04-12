@@ -1,0 +1,488 @@
+{
+    "data": {
+        "cats": [
+            {
+                "cats": [
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?spm=0.0.0.1005.p3ZMuW&s=0&user_id=725677994&area_code=330100&cat=50504021&active=1&style=g&acm=lb-zebra-26901-350672.1003.4.467893&search_condition=23&sort=s&scm=1003.4.lb-zebra-26901-350672.OTHER_14440838442321_467893&n=40",
+                        "text": "巧克力"
+                    },
+                    {
+                        "highlight": true,
+                        "link": "//list.tmall.com/search_product.htm?acm=lb-zebra-26901-350672.1003.4.467893&sort=s&suggest=0_1&industryCatId=50512020&smAreaId=330110&spm=a3204.7933263.0.0.612e5391u1f6UF&q=%BF%DA%CF%E3%CC%C7&user_id=725677994,1910146537,2136152958&cat=50498021&style=g&from=chaoshi..pc_1_suggest&search_condition=23&scm=1003.4.lb-zebra-26901-350672.OTHER_14440834594832_467893",
+                        "text": "口香糖"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?spm=0.0.0.0.0IvWqw&user_id=725677994&cat=50516031&prop=29180:42478&active=1&style=g&acm=lb-zebra-26901-350672.1003.4.467893&search_condition=23&scm=1003.4.lb-zebra-26901-350672.OTHER_14440846137293_467893",
+                        "text": "棒棒糖"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?spm=0.0.0.0.Dlyasc&q=%CF%B2%CC%C7&s=40&user_id=725677994&cat=50512020&active=1&style=g&acm=lb-zebra-26901-350672.1003.4.467893&search_condition=23&scm=1003.4.lb-zebra-26901-350672.OTHER_14440842289804_467893#J_Filter",
+                        "text": "喜糖"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?spm=0.0.0.0.yZN5w4&q=%C8%ED%CC%C7&user_id=725677994&cat=50516031&active=1&style=g&acm=lb-zebra-26901-350672.1003.4.467893&search_condition=23&scm=1003.4.lb-zebra-26901-350672.OTHER_14440823052365_467893",
+                        "text": "软糖"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?spm=0.0.0.0.buCLUi&q=%C4%CC%CC%C7&user_id=725677994&cat=50516031&style=g&acm=lb-zebra-26901-350672.1003.4.467893&search_condition=23&scm=1003.4.lb-zebra-26901-350672.OTHER_14440819204876_467893",
+                        "text": "奶糖"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?spm=0.0.0.0.kFPsAc&s=0&user_id=725677994&cat=51294012&area_code=330100&active=1&style=g&acm=lb-zebra-26901-350672.1003.4.467893&sort=s&search_condition=23&scm=1003.4.lb-zebra-26901-350672.OTHER_14440830747347_467893&n=0",
+                        "text": "果冻"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?spm=0.0.0.0.2tr5Tg&user_id=725677994&cat=50512020&active=1&style=g&acm=lb-zebra-26901-329720.1003.4.467882&search_condition=1&scm=1003.4.lb-zebra-26901-329720.OTHER_14440837715081_467882",
+                        "title": "糖果/巧克力"
+                    }
+                ]
+            },
+            {
+                "cats": [
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?cat=51278010&sort=s&s=0&style=g&acm=lb-zebra-26901-350673.1003.8.467901&search_condition=1&area_code=330100&n=40&active=1&spm=0.0.0.0.k8WYeG&user_id=725677994&scm=1003.8.lb-zebra-26901-350673.ITEM_14440839663701_467901",
+                        "text": "饼干"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?cat=51286011&sort=s&s=0&style=g&acm=lb-zebra-26901-350673.1003.8.467901&search_condition=23&area_code=330100&n=0&active=1&spm=0.0.0.0.Sr6wsI&user_id=725677994&scm=1003.8.lb-zebra-26901-350673.ITEM_14440835816212_467901",
+                        "text": "曲奇"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?cat=51284011&sort=s&s=0&style=g&acm=lb-zebra-26901-350673.1003.8.467901&search_condition=23&area_code=330100&n=40&active=1&spm=0.0.0.0.m0fIYv&user_id=725677994&scm=1003.8.lb-zebra-26901-350673.ITEM_14440847358673_467901",
+                        "text": "糕点"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?cat=50514010&style=g&acm=lb-zebra-26901-350673.1003.8.467901&q=%B5%B0%BE%ED&active=1&spm=0.0.0.0.FzWj80&user_id=725677994&scm=1003.8.lb-zebra-26901-350673.ITEM_14440843511184_467901",
+                        "text": "蛋卷"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?cat=50514010&style=g&acm=lb-zebra-26901-350673.1003.8.467901&q=%C3%E6%B0%FC&spm=0.0.0.0.THmgS0&user_id=725677994&scm=1003.8.lb-zebra-26901-350673.ITEM_14440824273745_467901",
+                        "text": "面包"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?cat=51280010&sort=s&s=0&style=g&acm=lb-zebra-26901-350673.1003.8.467901&search_condition=1&area_code=330100&n=40&active=1&spm=0.0.0.0.sESa8o&user_id=725677994&scm=1003.8.lb-zebra-26901-350673.ITEM_14440820426256_467901",
+                        "text": "薯片/膨化"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?user_action=initiative&at_topsearch=1&cat=50514008&sort=st&acm=lb-zebra-26901-350673.1003.8.467901&q=%C8%E2%CB%C9%B1%FD&user_id=725677994&userBucket=6&tp_id=725677994&userCell=26&scm=1003.8.lb-zebra-26901-350673.ITEM_14440831968727_467901",
+                        "text": "肉松饼"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?cat=50514010&style=g&acm=lb-zebra-26901-350673.1003.8.467901&q=%C2%E9%BB%A8&spm=0.0.0.0.wpvX7w&user_id=725677994&scm=1003.8.lb-zebra-26901-350673.ITEM_14440828121238_467901",
+                        "text": "麻花"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?cat=51284011&style=g&acm=lb-zebra-26901-350673.1003.8.467901&q=%C5%C9&search_condition=23&spm=0.0.0.0.HgpvsN&user_id=725677994&scm=1003.8.lb-zebra-26901-350673.ITEM_14440808883789_467901",
+                        "text": "蛋黄派"
+                    },
+                    {
+                        "highlight": true,
+                        "link": "//list.tmall.com/search_product.htm?cat=50514008&acm=lb-zebra-26901-350673.1003.8.467901&q=%D4%C2%B1%FD&user_id=725677994&spm=a3204.7084713.a2227oh.d100&from=chaoshi.index.pc_1_searchbutton&type=p&scm=1003.8.lb-zebra-26901-350673.ITEM_144408050362910_467901",
+                        "text": "月饼"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?cat=50514010&style=g&acm=lb-zebra-26901-350673.1003.8.467901&q=%C9%B3%E7%F7%C2%EA&spm=0.0.0.0.ybyNVU&user_id=725677994&scm=1003.8.lb-zebra-26901-350673.ITEM_144408165787611_467901",
+                        "text": "沙琪玛"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?user_action=initiative&at_topsearch=1&cat=50514008&sort=st&acm=lb-zebra-26901-350673.1003.8.467901&q=%B7%EF%C0%E6%CB%D6&user_id=725677994&userBucket=6&tp_id=725677994&userCell=26&scm=1003.8.lb-zebra-26901-350673.ITEM_144408127312712_467901",
+                        "text": "凤梨酥"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?spm=3.405264.315613.243.DjTEe4&s=0&user_id=725677994&area_code=330100&cat=50514010&active=1&style=g&acm=lb-zebra-26901-329720.1003.4.467882&search_condition=1&sort=s&scm=1003.4.lb-zebra-26901-329720.OTHER_14440833867602_467882&n=40",
+                        "title": "饼干糕点"
+                    }
+                ]
+            },
+            {
+                "cats": [
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?cat=50498005&sort=s&acm=lb-zebra-26901-350694.1003.8.467909&style=g&s=0&search_condition=1&n=40&active=1&user_id=725677994&spm=0.0.0.0.MmrzAb&scm=1003.8.lb-zebra-26901-350694.ITEM_14440840540651_467909",
+                        "text": "常温奶"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?cat=50498005&sort=s&acm=lb-zebra-26901-350694.1003.8.467909&style=g&s=0&search_condition=1&n=40&active=1&user_id=725677994&spm=0.0.0.0.MmrzAb&scm=1003.8.lb-zebra-26901-350694.ITEM_14440836693162_467909",
+                        "text": "乳饮料"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?cat=50498005&acm=lb-zebra-26901-350694.1003.8.467909&style=g&q=%B6%F9%CD%AF&user_id=725677994&spm=0.0.0.0.uDy1r3&scm=1003.8.lb-zebra-26901-350694.ITEM_14440848235623_467909",
+                        "text": "儿童奶"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?cat=50498005&acm=lb-zebra-26901-350694.1003.8.467909&style=g&q=%CB%E1%C4%CC&user_id=725677994&spm=0.0.0.0.g0kRvR&scm=1003.8.lb-zebra-26901-350694.ITEM_14440844388134_467909",
+                        "text": "酸奶"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?cat=50498005&acm=lb-zebra-26901-350694.1003.8.467909&style=g&q=%B6%B9%C4%CC&user_id=725677994&spm=0.0.0.0.qOXJiu&scm=1003.8.lb-zebra-26901-350694.ITEM_14440825150695_467909",
+                        "text": "豆奶"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?cat=50498005&acm=lb-zebra-26901-350694.1003.8.467909&style=g&q=%B5%CD%D6%AC%C5%A3%C4%CC&user_id=725677994&spm=0.0.0.0.qVwaKD&scm=1003.8.lb-zebra-26901-350694.ITEM_14440821303216_467909",
+                        "text": "低脂奶"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?cat=50498005&acm=lb-zebra-26901-350694.1003.8.467909&style=g&q=%C8%AB%D6%AC%C5%A3%C4%CC&user_id=725677994&spm=0.0.0.0.DuXpwL&scm=1003.8.lb-zebra-26901-350694.ITEM_14440832845687_467909",
+                        "text": "全脂奶"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?cat=50506028&acm=lb-zebra-26901-350694.1003.8.467909&style=g&search_condition=1&active=1&user_id=725677994&spm=0.0.0.0.V3Exho&scm=1003.8.lb-zebra-26901-350694.ITEM_14440828998198_467909",
+                        "text": "成人奶粉"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?spm=3.405264.315613.204.DjTEe4&s=0&user_id=725677994&area_code=330100&cat=50498005&active=1&style=g&acm=lb-zebra-26901-329720.1003.4.467882&search_condition=1&sort=s&scm=1003.4.lb-zebra-26901-329720.OTHER_14440845410063_467882&n=40",
+                        "title": "牛奶乳品"
+                    }
+                ]
+            },
+            {
+                "cats": [
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?cat=50506043&sort=s&acm=lb-zebra-26901-350716.1003.8.467923&s=0&style=g&search_condition=1&area_code=330100&n=40&active=1&user_id=725677994&spm=0.0.0.995.tAwACh&scm=1003.8.lb-zebra-26901-350716.ITEM_14440841111491_467923",
+                        "text": "水"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?cat=50516044&sort=s&acm=lb-zebra-26901-350716.1003.8.467923&s=0&style=g&search_condition=23&area_code=330100&n=40&active=1&user_id=725677994&spm=0.0.0.909.jzTlkD&scm=1003.8.lb-zebra-26901-350716.ITEM_14440837264002_467923",
+                        "text": "果蔬饮料"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?cat=50502050&sort=s&acm=lb-zebra-26901-350716.1003.8.467923&s=0&style=g&search_condition=23&area_code=330100&n=40&active=1&user_id=725677994&spm=0.0.0.987.IcRenv&scm=1003.8.lb-zebra-26901-350716.ITEM_14440848806463_467923",
+                        "text": "茶饮料"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?cat=50496042&sort=s&acm=lb-zebra-26901-350716.1003.8.467923&s=0&style=g&search_condition=23&area_code=330100&n=40&active=1&user_id=725677994&spm=0.0.0.899.SQT6wg&scm=1003.8.lb-zebra-26901-350716.ITEM_14440844958974_467923",
+                        "text": "碳酸饮料"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?cat=50490045&sort=s&acm=lb-zebra-26901-350716.1003.8.467923&s=0&style=g&search_condition=23&area_code=330100&n=40&active=1&user_id=725677994&spm=0.0.0.817.6QixuE&scm=1003.8.lb-zebra-26901-350716.ITEM_14440825721535_467923",
+                        "text": "功能饮料"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?cat=50516045&sort=s&acm=lb-zebra-26901-350716.1003.8.467923&s=0&style=g&search_condition=23&area_code=330100&n=40&active=1&user_id=725677994&spm=0.0.0.838.btGbNF&scm=1003.8.lb-zebra-26901-350716.ITEM_14440821874046_467923",
+                        "text": "即饮咖啡"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?cat=50512032&sort=s&acm=lb-zebra-26901-350716.1003.8.467923&style=g&s=0&search_condition=23&q=%CB%E1%C3%B7%CC%C0&n=0&user_id=725677994&spm=0.0.0.0.WeGpWl&scm=1003.8.lb-zebra-26901-350716.ITEM_14440833416527_467923",
+                        "text": "酸梅汤"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?spm=3.405264.315613.333.DjTEe4&s=0&user_id=725677994&area_code=330100&cat=50512032&active=1&style=g&acm=lb-zebra-26901-329720.1003.4.467882&search_condition=1&sort=s&scm=1003.4.lb-zebra-26901-329720.OTHER_14440841562574_467882&n=40",
+                        "title": "饮料/水"
+                    }
+                ]
+            },
+            {
+                "cats": [
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?cat=50510029&sort=s&acm=lb-zebra-26901-350723.1003.8.467947&s=0&style=g&search_condition=23&area_code=330100&n=40&active=1&user_id=725677994&scm=1003.8.lb-zebra-26901-350723.ITEM_14440842566401_467947",
+                        "text": "咖啡"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?cat=50512028&sort=s&acm=lb-zebra-26901-350723.1003.8.467947&style=g&search_condition=23&industryCatId=50518021&active=1&user_id=725677994&spm=1.1.0.0.h90XcZ&scm=1003.8.lb-zebra-26901-350723.ITEM_14440838718912_467947",
+                        "text": "奶茶"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?cat=50506028&sort=s&acm=lb-zebra-26901-350723.1003.8.467947&style=g&search_condition=1&industryCatId=50518021&active=1&user_id=725677994&spm=1.1.0.0.Z3tpuV&scm=1003.8.lb-zebra-26901-350723.ITEM_14440850261373_467947",
+                        "text": "奶粉"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?cat=50514036&sort=s&acm=lb-zebra-26901-350723.1003.8.467947&style=g&search_condition=23&industryCatId=50506027&active=1&user_id=725677994&spm=1.1.0.0.ljQBhr&scm=1003.8.lb-zebra-26901-350723.ITEM_14440846413884_467947",
+                        "text": "芝麻糊"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?cat=50504023&sort=s&acm=lb-zebra-26901-350723.1003.8.467947&style=g&search_condition=1&industryCatId=50518021&active=1&user_id=725677994&spm=1.1.0.0.6Pwg8j&scm=1003.8.lb-zebra-26901-350723.ITEM_14440827176445_467947",
+                        "text": "茶叶"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com//search_product.htm?cat=50518003&sort=s&acm=lb-zebra-26901-350723.1003.8.467947&style=g&q=%B2%B9%B3%E4&industryCatId=50514008&user_id=725677994&spm=1.1.0.0.lltt1o&suggest=0_2&from=chaoshi..pc_1_suggest&scm=1003.8.lb-zebra-26901-350723.ITEM_14440834871427_467947",
+                        "text": "功能保健"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?cat=50518003&sort=s&acm=lb-zebra-26901-350723.1003.8.467947&style=g&search_condition=1&q=%B7%E4%C3%DB&industryCatId=50514008&active=1&user_id=725677994&spm=1.1.0.0.UHuQHR&scm=1003.8.lb-zebra-26901-350723.ITEM_14440831023938_467947",
+                        "text": "蜂产品"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?cat=50496032&sort=s&acm=lb-zebra-26901-350723.1003.8.467947&style=g&search_condition=23&industryCatId=50506027&active=1&user_id=725677994&spm=1.1.0.0.arSvsG&scm=1003.8.lb-zebra-26901-350723.ITEM_14440811786489_467947",
+                        "text": "麦片"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com//search_product.htm?cat=50518003&sort=s&acm=lb-zebra-26901-350723.1003.8.467947&style=g&q=%C5%C5%B6%BE&industryCatId=50514008&user_id=725677994&spm=1.1.0.0.L2i5YY&suggest=0_4&from=chaoshi..pc_1_suggest&scm=1003.8.lb-zebra-26901-350723.ITEM_144408194814711_467947",
+                        "text": "减肥"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com//search_product.htm?cat=50518003&sort=s&acm=lb-zebra-26901-350723.1003.8.467947&style=g&q=%C0%F1%BA%D0&industryCatId=50514008&user_id=725677994&spm=1.1.0.0.zwCqvw&from=chaoshi..pc_1_searchbutton&scm=1003.8.lb-zebra-26901-350723.ITEM_144408079390010_467947",
+                        "text": "保健礼盒"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?cat=50510042&sort=td&acm=lb-zebra-26901-350723.1003.8.467947&style=g&search_condition=23&industryCatId=50510042&active=1&user_id=725677994&spm=1.1.0.0.j22vNd&scm=1003.8.lb-zebra-26901-350723.ITEM_144408156339812_467947",
+                        "text": "传统滋补"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com//search_product.htm?cat=50518003&sort=s&acm=lb-zebra-26901-350723.1003.8.467947&style=g&q=%C4%D0%C8%CB%B1%A3%BD%A1&industryCatId=50514008&user_id=725677994&spm=1.1.0.0.0N4jaf&from=chaoshi..pc_1_searchbutton&scm=1003.8.lb-zebra-26901-350723.ITEM_144407963965413_467947",
+                        "text": "补肾"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?spm=3.405264.315613.349.DjTEe4&s=0&user_id=725677994&area_code=330100&cat=50518021&active=1&style=g&acm=lb-zebra-26901-329720.1003.4.467882&search_condition=1&sort=s&scm=1003.4.lb-zebra-26901-329720.OTHER_14440822325135_467882&n=40",
+                        "title": "冲调保健"
+                    }
+                ]
+            },
+            {
+                "cats": [
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?cat=50490042&sort=s&acm=lb-zebra-26901-350758.1003.8.467956&s=0&style=g&search_condition=23&area_code=330100&n=40&active=1&user_id=725677994&spm=0.0.0.873.IG4IYC&scm=1003.8.lb-zebra-26901-350758.ITEM_14440843746321_467956",
+                        "text": "核桃"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?cat=50514042&acm=lb-zebra-26901-350758.1003.8.467956&style=g&search_condition=23&active=1&user_id=725677994&spm=0.0.0.0.HSiLuo&scm=1003.8.lb-zebra-26901-350758.ITEM_14440839898832_467956",
+                        "text": "夏威夷果"
+                    },
+                    {
+                        "highlight": true,
+                        "link": "//list.tmall.com/search_product.htm?cat=50516041&acm=lb-zebra-26901-350758.1003.8.467956&style=g&search_condition=23&active=1&user_id=725677994&spm=0.0.0.0.KpVm36&scm=1003.8.lb-zebra-26901-350758.ITEM_14440851441293_467956",
+                        "text": "碧根果"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?cat=50514041&sort=s&acm=lb-zebra-26901-350758.1003.8.467956&s=0&style=g&search_condition=23&area_code=330100&n=40&active=1&user_id=725677994&spm=0.0.0.953.9M2Cd8&scm=1003.8.lb-zebra-26901-350758.ITEM_14440847593804_467956",
+                        "text": "开心果"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?cat=50510033&acm=lb-zebra-26901-350758.1003.8.467956&style=g&search_condition=23&active=1&user_id=725677994&spm=0.0.0.0.uPFE8H&scm=1003.8.lb-zebra-26901-350758.ITEM_14440828356365_467956",
+                        "text": "腰果"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?cat=50514040&sort=s&acm=lb-zebra-26901-350758.1003.8.467956&s=0&style=g&search_condition=23&area_code=330100&n=40&active=1&user_id=725677994&spm=0.0.0.1009.Q5p6qs&scm=1003.8.lb-zebra-26901-350758.ITEM_14440824508876_467956",
+                        "text": "瓜子"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?cat=50518027&sort=s&acm=lb-zebra-26901-350758.1003.8.467956&s=0&style=g&search_condition=23&area_code=330100&n=40&active=1&user_id=725677994&spm=0.0.0.915.ijmNkO&scm=1003.8.lb-zebra-26901-350758.ITEM_14440836051347_467956",
+                        "text": "花生"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?cat=50516040&sort=s&acm=lb-zebra-26901-350758.1003.8.467956&s=0&style=g&search_condition=23&area_code=330100&n=40&active=1&user_id=725677994&spm=0.0.0.868.RVZmCB&scm=1003.8.lb-zebra-26901-350758.ITEM_14440832203858_467956",
+                        "text": "杏仁"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?cat=50502045&sort=s&acm=lb-zebra-26901-350758.1003.8.467956&style=g&search_condition=23&industryCatId=50514037&active=1&user_id=725677994&spm=1.1.0.0.8L4beS&scm=1003.8.lb-zebra-26901-350758.ITEM_14440812966419_467956",
+                        "text": "豆类"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?spm=3.405264.315613.21.9fGQeY&s=0&user_id=725677994&area_code=330100&cat=50514037&active=1&style=g&acm=lb-zebra-26901-329720.1003.4.467882&search_condition=23&sort=s&scm=1003.4.lb-zebra-26901-329720.OTHER_14440818477646_467882&n=40",
+                        "title": "坚果炒货"
+                    }
+                ]
+            },
+            {
+                "cats": [
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?spm=0.0.0.843.VV31mL&s=0&user_id=725677994&area_code=330100&cat=50490040&active=1&style=g&acm=lb-zebra-26901-350791.1003.4.467981&search_condition=23&sort=s&scm=1003.4.lb-zebra-26901-350791.OTHER_14440845549961_467981&n=40",
+                        "text": "牛肉"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?spm=1.1.0.0.z4gxb3&user_id=725677994&cat=50490040&prop=122216451:94557&active=1&style=g&is=prop&acm=lb-zebra-26901-350791.1003.4.467981&sort=s&search_condition=23&scm=1003.4.lb-zebra-26901-350791.OTHER_14440841702472_467981&industryCatId=50496035#J_crumbs",
+                        "text": "牛肉筋"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?spm=0.0.0.990.UNZ7GG&s=0&user_id=725677994&area_code=330100&cat=50506037&active=1&style=g&acm=lb-zebra-26901-350791.1003.4.467981&search_condition=23&sort=s&scm=1003.4.lb-zebra-26901-350791.OTHER_14440853244933_467981&n=40",
+                        "text": "猪肉"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?s=0&user_id=725677994&area_code=330100&cat=50516039&active=1&style=g&acm=lb-zebra-26901-350791.1003.4.467981&search_condition=1&sort=s&scm=1003.4.lb-zebra-26901-350791.OTHER_14440849397444_467981&n=40",
+                        "text": "鸡鸭禽"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?spm=1.1.0.0.ZjDCtY&user_id=725677994&cat=50516039&prop=122216451:93381&active=1&style=g&is=prop&acm=lb-zebra-26901-350791.1003.4.467981&sort=s&search_condition=1&scm=1003.4.lb-zebra-26901-350791.OTHER_14440830160005_467981&industryCatId=50496035#J_crumbs",
+                        "text": "凤爪"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com//search_product.htm?spm=a3204.7933263.0.0.djbBzY&q=%B6%B9%B8%C9&user_id=725677994&cat=56028003&style=g&from=chaoshi..pc_1_searchbutton&acm=lb-zebra-26901-350791.1003.4.467981&sort=s&search_condition=23&scm=1003.4.lb-zebra-26901-350791.OTHER_14440826312526_467981&industryCatId=50514010&smAreaId=370302",
+                        "text": "豆干"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?spm=0.0.0.0.Lk3Rmm&q=%C8%E2%CB%C9&user_id=725677994&cat=50496035&style=g&acm=lb-zebra-26901-350791.1003.4.467981&search_condition=23&scm=1003.4.lb-zebra-26901-350791.OTHER_14440837854997_467981",
+                        "text": "肉松"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?spm=1.1.0.0.ao4Ea4&user_id=725677994&cat=50510040&active=1&style=g&acm=lb-zebra-26901-350791.1003.4.467981&sort=s&search_condition=23&scm=1003.4.lb-zebra-26901-350791.OTHER_14440834007508_467981&industryCatId=50492036",
+                        "text": "鱼系列"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?spm=1.1.0.0.IfoyRW&user_id=725677994&cat=50514043&active=1&style=g&acm=lb-zebra-26901-350791.1003.4.467981&sort=s&search_condition=23&scm=1003.4.lb-zebra-26901-350791.OTHER_14440814770059_467981&industryCatId=50492036",
+                        "text": "海苔"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?spm=3.405264.315613.286.DjTEe4&s=0&user_id=725677994&area_code=330100&cat=50496035&active=1&style=g&acm=lb-zebra-26901-329720.1003.4.467882&search_condition=1&sort=s&scm=1003.4.lb-zebra-26901-329720.OTHER_14440830020117_467882&n=40",
+                        "title": "肉类/豆干制品零食"
+                    }
+                ]
+            },
+            {
+                "cats": [
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?cat=50496043&sort=s&acm=lb-zebra-26901-350829.1003.8.467987&s=0&style=g&search_condition=23&area_code=330100&n=40&active=1&user_id=725677994&spm=0.0.0.964.AwQBbL&scm=1003.8.lb-zebra-26901-350829.ITEM_14440846203371_467987",
+                        "text": "葡萄酒"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?cat=50498041&sort=s&acm=lb-zebra-26901-350829.1003.8.467987&s=0&style=g&search_condition=23&area_code=330100&n=40&active=1&user_id=725677994&spm=0.0.0.985.YGZXfS&scm=1003.8.lb-zebra-26901-350829.ITEM_14440842355882_467987",
+                        "text": "黄酒"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?cat=50510039&sort=s&acm=lb-zebra-26901-350829.1003.8.467987&s=0&style=g&search_condition=23&area_code=330100&n=40&active=1&user_id=725677994&spm=0.0.0.986.WCN8RE&scm=1003.8.lb-zebra-26901-350829.ITEM_14440853898343_467987",
+                        "text": "啤酒"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?cat=50492045&sort=s&acm=lb-zebra-26901-350829.1003.8.467987&s=0&style=g&search_condition=23&area_code=330100&n=40&active=1&user_id=725677994&spm=0.0.0.0.9FnP3w&scm=1003.8.lb-zebra-26901-350829.ITEM_14440850050854_467987",
+                        "text": "白酒"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?cat=50490046&acm=lb-zebra-26901-350829.1003.8.467987&style=g&search_condition=23&active=1&user_id=725677994&spm=0.0.0.0.fTmAJh&scm=1003.8.lb-zebra-26901-350829.ITEM_14440830813415_467987",
+                        "text": "洋酒"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?spm=3.405264.315613.322.DjTEe4&s=0&user_id=725677994&area_code=330100&cat=50510038&active=1&style=g&acm=lb-zebra-26901-329720.1003.4.467882&search_condition=23&sort=s&scm=1003.4.lb-zebra-26901-329720.OTHER_14440826172628_467882&n=40",
+                        "title": "酒类"
+                    }
+                ]
+            },
+            {
+                "cats": [
+                    {
+                        "highlight": true,
+                        "link": "//list.tmall.com/search_product.htm?cat=51056002&acm=lb-zebra-26901-350830.1003.8.467997&style=g&search_condition=23&active=1&user_id=725677994&spm=0.0.0.0.45fisA&scm=1003.8.lb-zebra-26901-350830.ITEM_14440847059481_467997",
+                        "text": "红枣"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?cat=50502043&acm=lb-zebra-26901-350830.1003.8.467997&style=g&search_condition=23&active=1&user_id=725677994&spm=0.0.0.0.JifhDv&scm=1003.8.lb-zebra-26901-350830.ITEM_14440843212002_467997",
+                        "text": "梅类"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?cat=51824014&sort=s&acm=lb-zebra-26901-350830.1003.8.467997&style=g&search_condition=23&industryCatId=50516037&active=1&user_id=725677994&spm=1.1.0.0.Etetbl&scm=1003.8.lb-zebra-26901-350830.ITEM_14440854754463_467997",
+                        "text": "葡萄干"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?cat=50506033&sort=s&acm=lb-zebra-26901-350830.1003.8.467997&s=0&style=g&search_condition=23&area_code=330100&n=40&active=1&user_id=725677994&spm=0.0.0.964.oWCB1b&scm=1003.8.lb-zebra-26901-350830.ITEM_14440850906974_467997",
+                        "text": "芒果干"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?cat=51858009&acm=lb-zebra-26901-350830.1003.8.467997&style=g&search_condition=23&active=1&user_id=725677994&spm=0.0.0.0.CComWg&scm=1003.8.lb-zebra-26901-350830.ITEM_14440831669535_467997",
+                        "text": "山楂片/卷"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?user_action=initiative&at_topsearch=1&cat=50514008&sort=st&acm=lb-zebra-26901-350830.1003.8.467997&q=%CE%DE%BB%A8%B9%FB&userBucket=6&user_id=725677994&tp_id=725677994&userCell=26&scm=1003.8.lb-zebra-26901-350830.ITEM_14440827822046_467997",
+                        "text": "无花果"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?cat=50516037&acm=lb-zebra-26901-350830.1003.8.467997&style=g&search_condition=23&q=%B3%C2%C6%A4&user_id=725677994&spm=0.0.0.0.GFVGMV&scm=1003.8.lb-zebra-26901-350830.ITEM_14440839364517_467997",
+                        "text": "陈皮"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?cat=50512029&sort=s&acm=lb-zebra-26901-350830.1003.8.467997&style=g&search_condition=23&industryCatId=50516037&active=1&user_id=725677994&spm=1.1.0.0.nU6Fmu&scm=1003.8.lb-zebra-26901-350830.ITEM_14440835517028_467997",
+                        "text": "榴莲干"
+                    },
+                    {
+                        "highlight": false,
+                        "link": "//list.tmall.com/search_product.htm?spm=3.405264.315613.299.DjTEe4&s=0&user_id=725677994&area_code=330100&cat=50516037&active=1&style=g&acm=lb-zebra-26901-329720.1003.4.467882&search_condition=23&sort=s&scm=1003.4.lb-zebra-26901-329720.OTHER_14440806935179_467882&n=40",
+                        "title": "蜜饯果干"
+                    }
+                ]
+            }
+        ],
+        "acts": [
+            {
+                "link": "//list.tmall.com/search_product.htm?q=%D0%C2%C5%A9%B8%E7&spm=1.1.0.0.M1QaJq&user_id=725677994&cat=50514008&acm=lb-zebra-26901-329722.1003.4.468004&style=g&from=chaoshi.index.pc_1_searchbutton&sort=p&scm=1003.4.lb-zebra-26901-329722.OTHER_14440847425311_468004&industryCatId=50514008#J_Filter",
+                "text": "新农哥"
+            },
+            {
+                "link": "//list.tmall.com/search_product.htm?q=%C4%CF%B7%BD&user_action=initiative&user_id=725677994&cat=50514008&tp_id=725677994&acm=lb-zebra-26901-329722.1003.4.468004&at_topsearch=1&sort=st&userCell=29&scm=1003.4.lb-zebra-26901-329722.OTHER_14440843577822_468004&userBucket=9",
+                "text": "南方大促"
+            }
+        ],
+        "banner": [
+            {
+                "img": "//img.alicdn.com/tps/i1/TB1h7hfHFXXXXbHaXXX6TwSIFXX-196-90.jpg",
+                "link": "//www.tmall.com/wh/tmall/chaoshi/chn/act/lshlg-hd?acm=lb-zebra-26901-329723.1003.4.468008&scm=1003.4.lb-zebra-26901-329723.OTHER_14440847968311_468008"
+            }
+        ]
+    }
+}
