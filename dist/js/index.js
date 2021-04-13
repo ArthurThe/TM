@@ -232,16 +232,16 @@
 
     
 }) */
-;$(function(){
+;$(function(){             //首页商品列表
     $.get("http://jx.xuzhixiang.top/ap/api/productlist.php", {
         uid:800
     }).then(res => {
-        console.log(res)
+       
         let str="";
         
         for(item in res.data){
             // console.log(res.data[item]);     //里面8条uid为800的数据
-            str+=`<a href="" class="list-info">
+            str+=`<a href="detail.html?id=${res.data[item].pid}" class="list-info">
             <div class="wrap">
                 <img src="${res.data[item].pimg}" alt="" width="160" height="160">
                 <p class="title">${res.data[item].pname}</p>
@@ -257,7 +257,7 @@
     })
 });
 
-;$(function(){
+;$(function(){            //exin
     $(window).scroll(function(){
         var st = $(this).scrollTop();
         if(st>300){
@@ -267,27 +267,117 @@
                 "z-index":9999
             });
             $("#cart").css({
-                "position":"fixed",
+                /* "position":"fixed",
                 "right":"164px",
-                "z-index":9999
+                "z-index":9999 */
             })
         }else{
             $(".tm-nav").css({
-                "position":"relative"
+                "position":"static"
                 
             })
         }
         $(".nav1").mouseenter(function(){
             if(st>800){
-                $(".tm-side").css({
+                $(".exin").css({
                     "position":"fixed",
-                    "top":"50px",
+                    "top":"36px",
+                    "left":"164px",
                     "z-index":9999
                 })
+                $(".tm-side  ul li").mouseenter(function (e) {
+
+                    if ($(this).index() < 3) {
+                        var top = ($(this).index() * 82.4) + 36+'px';
+                        $(".subview").show().css({
+                            "position":"fixed",
+                            "top": top,
+                            "left":"404px",
+                            "z-index": "9999"
+            
+                        })
+            
+                    } else if ($(this).index() >= 3) {
+            
+                        $(".subview").show().css({
+                            "position":"fixed",
+                            "top": "340px",
+                            "left":"404px",
+                            "z-index": "9999"
+                        });
+                    }
+                });
+                $(".exin").mouseleave(function (e) {
+                    $(".exin").css({
+                        "position":"static",
+                        "float":"left",
+                        "top":"0",
+                        "left":0
+                    })
+                    if ($(this).index() < 3) {
+                        var top = ($(this).index() * 82.4) + 'px';
+                        $(".subview").css({
+                            "position":"absolute",
+                            "top": top,
+                            "left":"238px",
+                            "z-index": "9999"
+            
+                        })
+            
+                    } else if ($(this).index() >= 3) {
+            
+                        $(".subview").css({
+
+                            "position":"absolute",
+                            "left":"238px",
+                            "z-index": 9999,
+                            "top": "220px"
+            
+                        });
+                    }
+                    $(".tm-side").mouseleave(function(){
+
+                    })
+                });
+                $(".subview").mouseleave(function () {
+                    $(this).css({
+                        "display": "none"
+                    })
+                })
+                
+                
             }else{
-                $(".tm-side").css({
-                    "position":"static",
-                    "float":"left"
+                $(".exin").css({
+                    "position":"static"
+                    
+                })
+                $(".tm-side  ul li").mouseenter(function (e) {
+
+                    if ($(this).index() < 3) {
+                        var top = ($(this).index() * 82.4) + 'px';
+                        $(".subview").show().css({
+                            "position":"absolute",
+                            "top": top,
+                            "left":"238px",
+                            "z-index": "9999"
+            
+                        })
+            
+                    } else if ($(this).index() >= 3) {
+            
+                        $(".subview").show().css({
+                            "position":"absolute",
+                            "left":"238px",
+                            "z-index": 9999,
+                            "top": "220px"
+            
+                        });
+                    }
+                });
+                $(".subview").mouseleave(function () {
+                    $(this).css({
+                        "display": "none"
+                    })
                 })
             }
         });
@@ -308,3 +398,51 @@
         
     })
 })
+/* $(function(){
+    $.get(" http://jx.xuzhixiang.top/ap/api/login.php",{
+        username:"17737000537",
+        password:"641010ccc"
+    }).then(res=>{
+        console.log(res)
+    })
+}) */
+
+//首页显示登录姓名 退出
+$(function(){
+    
+    if(getCookie("username")){
+        $(".sn-login").css({
+            "display":"none"
+        })
+        $(".sn-login-info i").css({
+            "display":"none"
+        })
+        $(".sn-register").css({
+            "display":"none"
+        })
+
+        $(".username").css({
+            "display":"block"
+        })
+        $(".jifen").css({
+            "display":"block"
+        })
+        $(".tuichu").css({
+            "display":"block"
+        })
+
+        $(".username").append(getCookie("username"));
+    }else{
+        $(".sn-login").css({
+            "display":"block"
+        })
+        $(".sn-login-info i").css({
+            "display":"block"
+        })
+    }
+    $(".tuichu").click(function(){
+        moveCookie("username")
+        moveCookie("id");
+    })
+})
+

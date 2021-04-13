@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/register.css"/>
+		<script type="text/javascript" src="js/jquery-1.12.4.js"></script>
+		
+		<style type="text/css">
+			p{
+				font-family: "微软雅黑";
+				font-size: 25px;
+				font-weight: bolder;
+				line-height: 200px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="boxone">
+			<div class="boxtwo">
+			<div id="img">
+				<img style="-webkit-user-select: none;" src="./img/logo.png" >
+			</div>
+			<h1>注册天猫账号成功</h1>
+			
+		  </div>
+		</div>
+		<script type="text/javascript">
+			$(document).ready(function(){
+			//x上限，y下限
+    		var x = 100000000;
+   		    var y = 0;
+    		var rand = parseInt(Math.random() * (x - y + 1) + y);
+			//接受数据
+			$("#id").text(rand);
+			})
+		</script>
+	</body>
+</html>

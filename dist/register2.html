@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/register.css" />
+		
+		<script type="text/javascript" src="js/jquery-1.12.4.js"></script>
+		<script type="text/javascript" src="./js/file2.js">
+		</script>
+		<style type="text/css">
+			.boxone{
+				background-color: whitesmoke;
+			}
+			.boxtwo{
+				border-top-color: #FF6700;
+				border-bottom-color: #FF6700;
+				border-right-color: whitesmoke;
+				border-left-color: whitesmoke;
+			}
+			p{
+				font-size: 20px;
+				font-family: "微软雅黑";
+				font-weight:100;
+			}
+			.text{
+				border: 1px solid #E8E8E8;
+				height: 50px;
+				width: 250px;
+				outline: none;
+			}
+			#box{
+				border: 1px solid #E8E8E8;
+				width: 120px;
+				height: 50px;
+				background-color: white;
+				float: right;
+				margin: -72px 20px;
+			}
+			#sendsms{
+				text-decoration: none;
+				color: black;
+				line-height: 50px;
+				margin-left: 20px;
+			}
+			#box:hover{
+				background-color: floralwhite;
+			}
+			.input2{
+				border: 1px solid #E8E8E8;
+				background-color: white;
+				width: 400px;
+	            height: 50px;
+	            color: #E8E8E8;
+	            font-family: "微软雅黑";
+	            font-size: 20px;
+	            outline: none;
+			}
+			.input2:hover{
+				color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="boxone">
+			<div class="boxtwo">
+			<div id="img">
+				<img style="-webkit-user-select: none;" src="./img/logo.png" width="200">
+			</div>
+			<h1>注册天猫账号</h1>
+			<p>我们将发送一条短信至<span style="color: #FF6700; font-size: 20px;" id="phones"></span></p>
+			<p>请输入短信中的验证码</p>
+			<p>
+		        <input type="text" placeholder="请输入验证码" class="text"/>
+				<div id="box">
+					<a id="sendsms">获取验证码</a>
+				</div>
+			</p>
+	       <p><input type="button" value="下一步" class="input"/></p>
+	        <p><input type="button" value="返回" class="input2"/></p>
+	       </div>
+		</div>
+		<script type="text/javascript">
+			var iphone=sessionStorage.getItem("tel");
+			var str="  +86  "+iphone;
+			$("#phones").text(str);
+		</script>
+	</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" />
+
+	<!-- 可选的 Bootstrap 主题文件（一般不用引入） -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" />
+
+	<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+	<script type="text/javascript" src="js/jquery-1.12.4.js"></script>
+
+	<script type="text/javascript" src="js/file3.js"></script>
+
+	<link rel="stylesheet" href="./css/register.css" />
+
+	<style type="text/css">
+		p {
+			font-family: "微软雅黑";
+			font-size: 18px;
+			color: black;
+			font-weight: bold;
+		}
+
+		.text1 {
+			border: 1px solid #E8E8E8;
+			width: 100%;
+			height: 50px;
+			outline: none;
+			text-indent: 20px;
+		}
+
+		.text2 {
+			border: 1px solid #E8E8E8;
+			width: 100%;
+			height: 50px;
+			outline: none;
+			text-indent: 20px;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="boxone">
+		<div class="boxtwo">
+			<div id="img">
+				<img style="-webkit-user-select: none;" src="./img/logo.png" width="200">
+			</div>
+			<h1>注册天猫账号</h1>
+			<p>您注册的手机号为<span style="color: #FF6700; font-size: 20px;" id="phones"></span></p>
+			<p>请设置您的密码:</p>
+			<p><input type="password" placeholder="请输入密码" class="text1" /></p>
+			<p><input type="password" placeholder="请输入确认密码" class="text2" /></p>
+			<span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true" id="domo"></span>
+			<span id="span">密码长度8~16位，数字、字母、字符至少包含两种</span>
+			<p><input type="button" value="提交" class="input" /></p>
+		</div>
+	</div>
+	<script type="text/javascript">
+		var iphone = sessionStorage.getItem("tel");
+		//			var str=iphone;
+		$("#phones").text(iphone);
+	</script>
+</body>
+
+</html>

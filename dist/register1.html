@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>天猫注册页面</title>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" />
+
+    <!-- 可选的 Bootstrap 主题文件（一般不用引入） -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" />
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="./css/register.css" />
+
+    <script type="text/javascript" src="./js/jquery-1.12.4.js"></script>
+    <script type="text/javascript" src="js/file1.js"></script>
+
+</head>
+
+<body>
+    <div class="boxone">
+        <div class="boxtwo">
+            <div id="img">
+                <img style="-webkit-user-select: none;" src="./img/logo.png" width="200">
+            </div>
+            <h1>注册天猫账号</h1>
+            <p>国家/地区</p>
+            <div class="boxtherr">
+                <p class="font">你只能选<b>中国</b></p>
+            </div>
+            <div class="boxfour">
+                <span class="glyphicon glyphicon-ok-circle" aria-hidden="true"></span>
+            </div>
+            <div id="xiala">
+                <input type="text" />
+                <ul>
+                    <li class="onelis">A</li>
+                    <li class="lis">阿富汗</li>
+                    <li class="lis">艾欧利亚</li>
+                    <li class="lis">阿尔及利亚</li>
+                </ul>
+                <ul>
+                    <li class="onelis">B</li>
+                    <li class="lis">巴哈马</li>
+                    <li class="lis">巴林</li>
+                    <li class="lis">贝宁</li>
+                </ul>
+                <ul>
+                    <li class="onelis">C</li>
+                    <li class="lis">柬普赛</li>
+                    <li class="lis">加拿大</li>
+                    <li class="lis">中国</li>
+                </ul>
+            </div>
+            <p>成功注册账号后，国家/地区将不能被修改</p>
+            <p>手机号码</p>
+            <input type="text" class="boxsix" placeholder="请输入手机号码">
+            <!--onfocus="if(value=='请输入手机号码'){value==''}"
+				 onblur="if(value==''){value=='请输入手机号码'}" />-->
+            <div class="boxfive">
+                <p class="font">
+                    +86<span class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span>
+                </p>
+            </div>
+            <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true" id="domo">请输入手机号</span>
+            <p><input type="button" value="立即注册" class="input" /></p>
+            <p id="wen"><a href="#">已阅读并同意：阿里巴巴<span class="end" title="用户协议">用户协议</span>和<span class="end"
+                        title="隐私政策">隐私政策</span></a></p>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>购物车</title>
+<script type="text/javascript" src="js/gouwu.js" ></script>
+<link href="./css/cart.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="page">
+<div id="listdiv"> <h4>购物车</h4>
+   <table width="750" cellpadding="0" cellspacing="0" id="gwcTable">
+    <tr>
+      <td width="79"><input type="checkbox" id="checkAll" />全选</td>
+      <td width="175">商品</td>
+      <td width="92">单价</td>
+      <td width="201">数量</td>
+      <td width="96">小计</td>
+      <td width="79">操作</td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" class="checkCss"/></td>
+      <td><p><img src="images/shouji.jpg" /></p><p>华为手机P8</p></td>
+      <td>2000</td>
+      <td class="count"><input class="reduceCss" id="jia1" value="-" type="button"/>
+          <input type="text" class="inputCountCss" id="inputCountCss1" value="1" size="8"/>
+          <input class="addCss" id="jia2" value="+" type="button"/></td>
+      <td id="stotal3">2000</td>
+      <td><a href="#"  class="a">删除</a></td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" class="checkCss" /></td>
+      <td><p><img src="images/cfy.jpg"/></p><p>玫红色 女款 冲锋衣外套</p></td>
+      <td>600</td>
+      <td class="count"><input class="reduceCss" id="jia3" value="-" type="button"/>
+          <input type="text" class="inputCountCss" id="inputCountCss2" value="1" size="8"/>
+          <input class="addCss" id="jia4" value="+" type="button"/></td>
+      <td id="stotal3">600</td>
+      <td><a href="#"  class="a">删除</a></td>
+    </tr>
+    <tr>
+      <td><input type="checkbox" class="checkCss" /></td>
+      <td><p><img src="images/tbx.jpg"/></p>
+      <p>女款 防滑透气 徒步鞋</p></td>
+      <td>200</td>
+      <td class="count"><input class="reduceCss" id="jia5" value="-" type="button"/>
+          <input type="text" class="inputCountCss" id="inputCountCss3" value="1" size="8"/>
+          <input class="addCss" id="jia6" value="+" type="button"/></td>
+      <td id="stotal3">200</td>
+      <td><a href="#" class="a">删除</a></td>
+    </tr>
+  </table>
+  </div>
+  <div id="jiesuan">
+    <div class="t jisuanbtn">
+      <input type="submit" name="btnOrder" id="btnOrder" value="立即结算" />
+    </div>
+    <div class="t TotalMoney">合计：￥<span id="priceTotal">0.00</span></div>
+    <div class="t">已选商品 <span id="countTotal">0</span> 件</div>   
+  </div>
+</div>
+</body>
+</html>
