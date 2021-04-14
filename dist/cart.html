@@ -1,64 +1,125 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="utf-8" />
-<title>购物车</title>
-<script type="text/javascript" src="js/gouwu.js" ></script>
-<link href="./css/cart.css" rel="stylesheet" type="text/css" />
+	<meta charset="utf-8" />
+	<title>购物车结算</title>
 </head>
 
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+<link type="text/css" rel="stylesheet" href="css/style.css" />
+
 <body>
-<div id="page">
-<div id="listdiv"> <h4>购物车</h4>
-   <table width="750" cellpadding="0" cellspacing="0" id="gwcTable">
-    <tr>
-      <td width="79"><input type="checkbox" id="checkAll" />全选</td>
-      <td width="175">商品</td>
-      <td width="92">单价</td>
-      <td width="201">数量</td>
-      <td width="96">小计</td>
-      <td width="79">操作</td>
-    </tr>
-    <tr>
-      <td><input type="checkbox" class="checkCss"/></td>
-      <td><p><img src="images/shouji.jpg" /></p><p>华为手机P8</p></td>
-      <td>2000</td>
-      <td class="count"><input class="reduceCss" id="jia1" value="-" type="button"/>
-          <input type="text" class="inputCountCss" id="inputCountCss1" value="1" size="8"/>
-          <input class="addCss" id="jia2" value="+" type="button"/></td>
-      <td id="stotal3">2000</td>
-      <td><a href="#"  class="a">删除</a></td>
-    </tr>
-    <tr>
-      <td><input type="checkbox" class="checkCss" /></td>
-      <td><p><img src="images/cfy.jpg"/></p><p>玫红色 女款 冲锋衣外套</p></td>
-      <td>600</td>
-      <td class="count"><input class="reduceCss" id="jia3" value="-" type="button"/>
-          <input type="text" class="inputCountCss" id="inputCountCss2" value="1" size="8"/>
-          <input class="addCss" id="jia4" value="+" type="button"/></td>
-      <td id="stotal3">600</td>
-      <td><a href="#"  class="a">删除</a></td>
-    </tr>
-    <tr>
-      <td><input type="checkbox" class="checkCss" /></td>
-      <td><p><img src="images/tbx.jpg"/></p>
-      <p>女款 防滑透气 徒步鞋</p></td>
-      <td>200</td>
-      <td class="count"><input class="reduceCss" id="jia5" value="-" type="button"/>
-          <input type="text" class="inputCountCss" id="inputCountCss3" value="1" size="8"/>
-          <input class="addCss" id="jia6" value="+" type="button"/></td>
-      <td id="stotal3">200</td>
-      <td><a href="#" class="a">删除</a></td>
-    </tr>
-  </table>
-  </div>
-  <div id="jiesuan">
-    <div class="t jisuanbtn">
-      <input type="submit" name="btnOrder" id="btnOrder" value="立即结算" />
-    </div>
-    <div class="t TotalMoney">合计：￥<span id="priceTotal">0.00</span></div>
-    <div class="t">已选商品 <span id="countTotal">0</span> 件</div>   
-  </div>
-</div>
+	<div class="shopping-car-container">
+		<div class="car-headers-menu">
+			<div class="row">
+				<div class="col-md-1 car-menu">
+					<label><input type="checkbox" id="check-goods-all" /><span id="checkAll">全选</span></label>
+				</div>
+				<div class="col-md-3 car-menu">商品信息</div>
+				<div class="col-md-3 car-menu">商品参数</div>
+				<div class="col-md-1 car-menu">单价</div>
+				<div class="col-md-1 car-menu">数量</div>
+				<div class="col-md-1 car-menu">金额</div>
+				<div class="col-md-2 car-menu">操作</div>
+			</div>
+		</div>
+		<div class="goods-content">
+			<!--goods display-->
+	
+		</div>
+		<div class="panel panel-default">
+			<div class="panel-body bottom-menu-include">
+				<div class="col-md-1 check-all-bottom bottom-menu">
+					<label>
+						<input type="checkbox" id="checked-all-bottom" />
+						<span id="checkAllBottom">全选</span>
+					</label>
+				</div>
+				<div class="col-md-1 bottom-menu">
+					<span id="deleteMulty">
+						删除
+					</span>
+				</div>
+				<div class="col-md-6 bottom-menu">
+
+				</div>
+				<div class="col-md-2 bottom-menu">
+					<span>已选商品 <span id="selectGoodsCount">0</span> 件</span>
+				</div>
+				<div class="col-md-1 bottom-menu">
+					<span>合计：<span id="selectGoodsMoney">0</span></span>
+				</div>
+				<div class="col-md-1 bottom-menu submitData submitDis">
+					结算
+				</div>
+			</div>
+		</div>
+		<!--删除确认弹框-->
+		<div class="modal fade" tabindex="-1" role="dialog" id="deleteItemTip" aria-labelledby="gridSystemModalLabel">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+								aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="gridSystemModalLabel">提示</h4>
+					</div>
+					<div class="modal-body">
+						确认删除此商品？
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+						<button type="button" class="btn btn-primary deleteSure">确定</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--是否勾选商品提示-->
+		<div class="modal fade" tabindex="-1" role="dialog" id="selectItemTip" aria-labelledby="gridSystemModalLabel">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+								aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="gridSystemModalLabel">提示</h4>
+					</div>
+					<div class="modal-body">
+						请选择要删除的商品！
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary" data-dismiss="modal">确定</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--批量删除商品-->
+		<div class="modal fade" tabindex="-1" role="dialog" id="deleteMultyTip" aria-labelledby="gridSystemModalLabel">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+								aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="gridSystemModalLabel">提示</h4>
+					</div>
+					<div class="modal-body">
+						确认删除选择的商品！
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
+						<button type="button" class="btn btn-primary deleteMultySure">确定</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="http://cdn.bootcss.com/jquery/2.1.4/jquery.js"></script>
+	<script src="./js/cookie.js"></script>
+	<script type="text/javascript" src="js/cart.js"></script>
+	<script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.js"></script>
+	<div style="text-align:center;margin:-50px 0; font:normal 14px/24px 'MicroSoft YaHei';">
+
+	</div>
 </body>
+
 </html>

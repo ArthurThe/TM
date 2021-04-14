@@ -25,15 +25,25 @@ oInput[1].onchange = function () {
         oSpan[1].style.color = "red";
     }
 }
+$(document).keydown(function (event) {
+    //alert(event.keyCode);
+    //判断当event.keyCode 为37时（即左方面键），执行函数to_left();
+    //判断当event.keyCode 为39时（即右方面键），执行函数to_right();
+    if (event.keyCode == 13) {
+        //alert('回车键');
+        $("#btn").click();
+    }
+});
 btn.onclick = function () {
+    
     console.log(oSpan[0].innerText)
     if (oSpan[0].innerText == "格式正确" && oSpan[1].innerText == "格式正确") {
         $.get("http://jx.xuzhixiang.top/ap/api/login.php", {
             username: oInput[0].value,
             password: oInput[1].value
         }, res => {
-            
-             alert(res.msg)
+
+            alert(res.msg)
             console.log(res.data)
             setCookie("username", oInput[0].value, 7);
             setCookie("id", res.data.id, 7);

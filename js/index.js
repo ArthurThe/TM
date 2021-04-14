@@ -14,7 +14,8 @@
     })
     $("#cart").mouseleave(function (e) {
         $("#cart").stop().animate({
-            "width": "210px"
+            "width": "210px",
+            "z-index":0
         }, 600, function () {
             $("#cartlist").css({
                 "display": "none"
@@ -48,7 +49,8 @@
     });
     $(".subview").mouseleave(function () {
         $(this).css({
-            "display": "none"
+            "display": "none",
+            "z-index":0
         })
     })
 });
@@ -114,8 +116,6 @@
                     }
                 } else {
                     bnr += `
-                        
-                        
                         <img src="//img.alicdn.com/tps/i1/TB1h7hfHFXXXXbHaXXX6TwSIFXX-196-90.jpg" alt=""></div>`
                 }
             }
@@ -444,5 +444,27 @@ $(function(){
         moveCookie("username")
         moveCookie("id");
     })
-})
+});
+;$(function(){
+    
+    
+    let sumprice=0;
+    let id=getCookie("id");
+    if(id){
+        $.get("http://jx.xuzhixiang.top/ap/api/cart-list.php",{
+            id:getCookie("id")
+        }).then(res=>{
+            
+            for(item in res.data){
+             
+                sumprice+=parseInt(res.data[item].pprice) * parseInt(res.data[item].pnum);
+            }
+            
+            $(".min-cart").html(sumprice);
+        })
+    }
+    
+    
 
+    
+})
