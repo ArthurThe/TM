@@ -329,16 +329,22 @@ $font: 12px;
                     i {
                         font-size: 25px;
                     }
-                    a:nth-child(2) {
+                    span{
+                        color: #fcff00;
+                        font-size: 20px;
+                        font-weight: 700;
+                        
+                    }
+                    a:nth-child(3) {
                         color: #fcff00;
                         font-size: 20px;
                         font-weight: 700;
                         margin-right: 10px;
                     }
-                    a:nth-child(3) {
+                     a:nth-child(4) {
                         color: white;
                         font-size: 12px;
-                    }
+                    } 
                 }
             }
             .cartlist {
@@ -719,6 +725,7 @@ $font: 12px;
             left: 83px;
             width: 70px;
             border: 1px solid #cecece;
+            display: none;
             ul {
                 li {
                     text-align: center;

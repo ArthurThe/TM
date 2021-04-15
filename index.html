@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TM</title>
+    <title>天猫超市-理想生活上天猫</title>
 
-
+    <link id="favicon" href="./img/title.png" rel="icon" />
     <script src="./font/iconfont.js"></script>
     <link href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
     <script src="http://cdn.bootcss.com/jquery/2.1.4/jquery.js"></script>
@@ -248,7 +248,7 @@
         <div class="headerwrap ">
             <div class="header clean">
                 <h3 id="mallogo">
-                    <a href="https://chaoshi.tmall.com/?notjump=true&_ig=logo" title="天猫超市-chaoshi.tmall.com"><img
+                    <a href="./index.html" title="天猫超市-chaoshi.tmall.com"><img
                             src="./img/logo.png" alt="" width="130"><span>生活小事 随时天猫超市</span>
                     </a>
                 </h3>
@@ -344,7 +344,7 @@
                                     <use xlink:href="#icon-gouwuche1-copy"></use>
                                 </svg>
                             </i>
-                            <a href="" class="min-cart">￥0.00元</a><a href="">0kg</a>
+                           <span>￥</span> <a href="./cart.html" class="min-cart">0.00元</a><a href="">0kg</a>
                             <span class="caret"
                                 style="float: right;margin-top: 18px;margin-right: 5px; color: white;"></span>
                         </h3>
@@ -1139,7 +1139,7 @@
                                     <use xlink:href="#icon-dayu"></use>
                                 </svg></i></li>
                         <img src="./img/楼梯二维码.png" alt="" width="67">
-                        <li><a>在线咨询</a> <i><svg class="icon" aria-hidden="true">
+                        <li><a href="//service.taobao.com/support/minerva/robot.htm?spm=a3204.7084713.0.0.KzRmvr&source_id=1310132935">在线咨询</a> <i><svg class="icon" aria-hidden="true">
                                     <use xlink:href="#icon-dayu"></use>
                                 </svg></i></li>
                         <li class="last">TOP</li>
@@ -1378,8 +1378,8 @@
                 flag = false;
                 var sTop = $(".diyi").eq($(this).index()).offset().top;
                 $("body,html").animate({
-                    "scrollTop": sTop
-                }, 1, function () {
+                    "scrollTop": sTop-40+"px"
+                }, 300, function () {
                     flag = true;
                 });
                 $(this).addClass("hover").siblings().removeClass("hover");

@@ -2,7 +2,7 @@ loadGoods()
 
 function loadGoods() {
 	let str = ""
-	var ss=0;
+	var ss = 0;
 	$.get("http://jx.xuzhixiang.top/ap/api/cart-list.php", {
 		id: getCookie("id")
 	}).then(res => {
@@ -40,24 +40,30 @@ function loadGoods() {
 			</div>
 			</div>
 			</div>`
-			
+
 			}
-			
+
 		}
-		
+
 		$('.goods-content').append(str);
 
-		$("#deleteMulty").click(function(){  //全部删除
-			$("#deleteMulty").parent().parent().parent().siblings(".goods-content").children().children().children().children(".goods-params").each(function(){
-				let id=getCookie("id");
-				pid=$(this).html();
-				console.log(pid)
-				shan(id,pid)
+		$("#deleteMulty").click(function () {  //全部删除
+			$("#deleteMulty").parent().parent().parent().siblings(".goods-content").children().children().children().children(".goods-params").each(function () {
+				let id = getCookie("id");
+				pid = $(this).html();
+				shan(id, pid)
 			})
+			getSum();
 			$(this).parent().parent().parent().siblings(".goods-content").children().remove();
+
+			quan();
+			shuaxin();
+			$("#selectGoodsCount").html(0);
+			$("#selectGoodsMoney").html(getSum());
+
 		})
-		
-	
+
+
 		$("#check-goods-all").click(function () { //全选激活所有单选
 			$(".goods-list-item").prop("checked", $("#check-goods-all").prop("checked"))
 			getSum();
@@ -81,7 +87,7 @@ function loadGoods() {
 
 			totalPrice = Number(zhi) * Number(singlePrice);
 
-			$(this).parent().parent().parent().siblings(".goods-money-count").children(".single-total").html(totalPrice)
+			$(this).parent().parent().parent().siblings(".goods-money-count").children(".single-total").html(parseFloat(totalPrice).toFixed(2))
 			getSum();
 			$("#selectGoodsMoney").html(getSum());
 			update(pid, zhi);
@@ -91,17 +97,17 @@ function loadGoods() {
 		$(".car-add").click(function () {
 			let pid = $(this).parent().parent().parent().siblings(".goods-params").html();
 			console.log(pid)
-			let singlePrice = $(this).parent().parent().parent().siblings(".goods-price").children(".single-price").html();
+			let singlePrice = parseFloat($(this).parent().parent().parent().siblings(".goods-price").children(".single-price").html()).toFixed(3);
 			let zhi1 = $(this).parent().siblings("input").val();
 			zhi1++;
 			$(this).parent().siblings("input").val(zhi1)
 			// console.log(zhi)
 
-			let totalPrice = $(this).parent().parent().parent().siblings(".goods-money-count").children(".single-total").html();
+			// let totalPrice = $(this).parent().parent().parent().siblings(".goods-money-count").children(".single-total").html();
 
-			totalPrice = Number(zhi1) * Number(singlePrice);
+			let totalPrice = parseInt(zhi1) * singlePrice;
 
-			$(this).parent().parent().parent().siblings(".goods-money-count").children(".single-total").html(totalPrice);
+			$(this).parent().parent().parent().siblings(".goods-money-count").children(".single-total").html(parseFloat(totalPrice).toFixed(2));
 			getSum();
 			$("#selectGoodsMoney").html(getSum());
 			update(pid, zhi1)
@@ -130,7 +136,9 @@ function loadGoods() {
 			shan(id, pid);
 			// cha(pid);
 			$(this).parent().parent().parent().remove();
+
 			quan();
+			shuaxin()
 		});
 		//单选
 		$(".goods-list-item").click(function () {
@@ -139,6 +147,16 @@ function loadGoods() {
 			// console.log(getSum())
 			$("#selectGoodsMoney").html(getSum());
 		})
+		//删除后全选状态清空
+		function shuaxin() {
+			console.log($(".goods-content").children().children()[0])
+			if ($(".goods-content").children().children()[0]==undefined) {
+				
+				$("#check-goods-all").prop("checked", false);
+			} 
+
+		}
+
 	})
 
 
@@ -178,7 +196,6 @@ function quan() {  //每个单选都选中，则激活全选
 		if ($(".goods-list-item").eq(i).prop("checked") == true) {
 			sum++;
 		}
-
 	}
 	if (sum == parseInt($(".goods-list-item").length)) {
 		$("#check-goods-all").prop("checked", true)
@@ -194,11 +211,12 @@ function getSum() {
 
 		if ($(".goods-list-item").eq(i).prop("checked") == true) {
 			sum++;
-			a += parseInt($(".goods-list-item").eq(i).parent().parent().parent().children(".goods-money-count").children(".single-total").html());
+			a += Number(parseFloat($(".goods-list-item").eq(i).parent().parent().parent().children(".goods-money-count").children(".single-total").html()).toFixed(2));
 			// a=parseInt(a);
 		}
+		// console.log(sum)
 		$("#selectGoodsCount").html(sum);
-		
+
 	}
 	return a;
 }

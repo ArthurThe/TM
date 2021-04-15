@@ -1,11 +1,12 @@
-
 $(function () {
     $(".exin").css({
         "display": "none"
     })
     $(".nav1").mouseenter(function () {
         $(".exin").css({
-            "display": "block"
+            "position":"absolute!important",
+            "display": "block",
+            "z-index":"9999"
         });
     })
 
@@ -17,7 +18,7 @@ $(function () {
 
 });
 
-; $(function () {
+; $(function () {          //获取该商品的详情页，插入html
     let id = location.search.split("=")[1];
     $.get("http://jx.xuzhixiang.top/ap/api/detail.php", {
         id: id
@@ -36,7 +37,7 @@ $(function () {
     })
 })
 
-$(function () {
+$(function () {       //控制加减
     let oMinus = document.querySelectorAll(".minus")[0];
     let oPlus = document.querySelectorAll(".plus")[0];
     let oNum = document.querySelectorAll(".num")[0];
@@ -66,7 +67,7 @@ $(function () {
 
     }
 })
-$(function () {
+$(function () {              //获取购物车数据，对min-cart重新赋值
     let id = getCookie("id");
     let sumprices = 0;
     $.get("http://jx.xuzhixiang.top/ap/api/cart-list.php", {
@@ -114,3 +115,13 @@ $(function () {
 
     })
 });
+//设置为1
+$(function(){
+    $(".tb-key .num").on("input",function(){
+        if(parseInt($(this).val())<=1){
+            $(this).val(1)
+
+        }
+    })
+})
+
